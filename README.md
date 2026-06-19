@@ -4,16 +4,16 @@ macOS 菜单栏应用，用于快速查看 DeepSeek 账户余额。
 
 ## 界面预览
 
-![主面板](https://raw.githubusercontent.com/gaoxiaosi/DeepSeekBar/main/docs/images/main-panel.png)
-![设置 API Key](https://raw.githubusercontent.com/gaoxiaosi/DeepSeekBar/main/docs/images/set-key.png)
-![编辑 API Key](https://raw.githubusercontent.com/gaoxiaosi/DeepSeekBar/main/docs/images/edit-key.png)
+| 初次启动设置API Key | 数据面板 | 编辑API Key |
+|---|---|---|
+| <img src="https://pic-host.oss-cn-shenzhen.aliyuncs.com/screenshots/set-key.png" width="320" alt="设置API Key" /> | <img src="https://pic-host.oss-cn-shenzhen.aliyuncs.com/screenshots/main-panel.png" width="320" alt="主面板" /> | <img src="https://pic-host.oss-cn-shenzhen.aliyuncs.com/screenshots/edit-key.png" width="320" alt="编辑API Key" /> |
 
 ## 功能
 
 - **菜单栏余额展示**：打开菜单栏下拉面板，立即显示 DeepSeek 账户总余额。
 - **自动刷新**：每次打开菜单自动从 DeepSeek API 获取最新余额数据。
 - **状态指示灯**：绿色 `● 可用` / 红色 `● 不可用`，一目了然。
-- **液态玻璃 UI**：使用 SwiftUI 原生 Material（`.ultraThinMaterial` / `.thinMaterial`），完美融入 macOS 毛玻璃设计语言。
+- **液态玻璃 UI**：使用 SwiftUI 原生 Material，完美融入 macOS 毛玻璃设计语言。
 - **API Key 管理**：首次启动弹出配置界面，随时可修改 Key。
 - **开机自启**：可设置开机自启。
 
