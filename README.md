@@ -4,9 +4,9 @@ macOS 菜单栏应用，用于快速查看 DeepSeek 账户余额。
 
 ## 界面预览
 
-![主面板](./docs/images/main-panel.png)
-![设置 API Key](./docs/images/set-key.png)
-![编辑 API Key](./docs/images/edit-key.png)
+![主面板](/docs/images/main-panel.png)
+![设置 API Key](/docs/images/set-key.png)
+![编辑 API Key](/docs/images/edit-key.png)
 
 ## 功能
 
