@@ -19,7 +19,7 @@ macOS 菜单栏应用，用于快速查看 DeepSeek 账户余额。
 
 ## 安装
 
-👉 通过[Releases](https://github.com/jipika/WaifuX/releases)下载安装包
+👉 通过[Releases](https://github.com/gaoxiaosi/DeepSeekBar/releases)下载安装包
 
 ### 从源码构建
 
