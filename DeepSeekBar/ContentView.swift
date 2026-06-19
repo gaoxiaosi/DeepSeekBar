@@ -45,12 +45,15 @@ struct ContentView: View {
 
     private var topBar: some View {
         HStack(spacing: 0) {
-            Image(systemName: "brain.head.profile")
-                .font(.system(size: 16, weight: .medium))
+            Image("MenuIcon")
+                .resizable()
+                .renderingMode(.template)
+                .frame(width: 18, height: 18)
                 .foregroundStyle(deepseekBlue)
 
             Text("DeepSeekBar")
                 .font(.system(size: 13, weight: .semibold))
+                .padding(.leading, 4)
 
             Spacer()
 

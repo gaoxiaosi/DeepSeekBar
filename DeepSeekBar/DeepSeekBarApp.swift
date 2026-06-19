@@ -21,7 +21,8 @@ struct DeepSeekBarApp: App {
                 APIKeySetupView(apiKey: $apiKey, hasAPIKey: $hasAPIKey, isEditing: .constant(false))
             }
         } label: {
-            Image(systemName: "brain.head.profile")
+            Image("MenuIcon")
+                .renderingMode(.template)
         }
         .menuBarExtraStyle(.window)
     }
