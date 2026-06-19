@@ -2,13 +2,11 @@
 
 macOS 菜单栏应用，用于快速查看 DeepSeek 账户余额。
 
-## 截图
+## 界面预览
 
-| 主面板 | 编辑 API Key |
-|---|---|
-| <img src="./docs/images/main-panel.png" width="320" alt="DeepSeekBar 主面板" /> | <img src="./docs/images/edit-key.png" width="320" alt="DeepSeekBar 编辑 API Key" /> |
-
-> 截图待补充
+![主面板](./docs/images/main-panel.png)
+![设置 API Key](./docs/images/set-key.png)
+![编辑 API Key](./docs/images/edit-key.png)
 
 ## 功能
 
@@ -16,10 +14,12 @@ macOS 菜单栏应用，用于快速查看 DeepSeek 账户余额。
 - **自动刷新**：每次打开菜单自动从 DeepSeek API 获取最新余额数据。
 - **状态指示灯**：绿色 `● 可用` / 红色 `● 不可用`，一目了然。
 - **液态玻璃 UI**：使用 SwiftUI 原生 Material（`.ultraThinMaterial` / `.thinMaterial`），完美融入 macOS 毛玻璃设计语言。
-- **品牌配色**：余额数字使用 DeepSeek 品牌蓝色，大号字体突出显示。
 - **API Key 管理**：首次启动弹出配置界面，随时可修改 Key。
+- **开机自启**：可设置开机自启。
 
 ## 安装
+
+👉 通过[Releases](https://github.com/jipika/WaifuX/releases)下载安装包
 
 ### 从源码构建
 
