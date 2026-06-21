@@ -10,23 +10,24 @@ macOS 菜单栏应用，用于快速查看 DeepSeek 账户余额。
 
 ## 功能
 
+核心功能：显示余额。现在DeepSeek接口只有这个数据，点击下拉菜单即可查看最新余额，自动刷新有延时，直接在菜单栏显示余额容易焦虑，所以暂时都不做。
+
 - **菜单栏余额展示**：打开菜单栏下拉面板，立即显示 DeepSeek 账户总余额。
-- **自动刷新**：每次打开菜单自动从 DeepSeek API 获取最新余额数据。
-- **状态指示灯**：绿色 `● 可用` / 红色 `● 不可用`，一目了然。
-- **液态玻璃 UI**：使用 SwiftUI 原生 Material，完美融入 macOS 毛玻璃设计语言。
+- **自动刷新**：每次菜单栏下拉自动从 DeepSeek API 获取最新余额数据。
+- **账号状态指示灯**：绿色 `● 可用` / 红色 `● 不可用`，一目了然。
 - **API Key 管理**：首次启动弹出配置界面，随时可修改 Key。
 - **开机自启**：可设置开机自启。
 
 ## 安装
 
-👉 通过[Releases](https://github.com/gaoxiaosi/DeepSeekBar/releases)下载安装包
+👉 通过 [Releases](https://github.com/gaoxiaosi/DeepSeekBar/releases) 下载安装包
 
 ### 从源码构建
 
 环境要求：
 
-- macOS 26.5+
-- Xcode 26.5+
+- macOS 13.0+
+- Xcode 15.0+
 
 ```bash
 git clone https://github.com/your-username/DeepSeekBar.git
@@ -38,12 +39,13 @@ open DeepSeekBar.xcodeproj
 
 ## 使用
 
-1. 运行应用后，菜单栏会出现 🧠 图标。
+1. **运行应用**，菜单栏会出现 DeepSeek 图标。
 2. **首次启动**：弹出 API Key 配置界面，输入你的 DeepSeek API Key。
 3. **查看余额**：点击菜单栏图标打开下拉面板，显示总余额和账户状态。
 4. **刷新数据**：点击 🔄 按钮手动刷新，或直接关闭菜单再打开自动触发刷新。
 5. **修改 Key**：点击 🔑 按钮打开编辑面板，支持取消返回。
-6. **退出应用**：点击 ⏻ 按钮。
+6. **开机自启**：点击 ⚡️ 切换是否开机自启。
+7. **退出应用**：点击 ⏻ 按钮。
 
 ## 数据
 
@@ -55,10 +57,7 @@ open DeepSeekBar.xcodeproj
 ## 技术栈
 
 - Swift 5.0+
-- SwiftUI（`MenuBarExtra` + `.menuBarExtraStyle(.window)`）
-- Foundation URLSession（async/await）
-- `NSVisualEffectView` Material（`.ultraThinMaterial` / `.thinMaterial`）
-- UserDefaults
+- SwiftUI 4.0+
 
 ## 项目结构
 
